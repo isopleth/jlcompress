@@ -210,6 +210,7 @@ extern void freeBlock(BlockDescriptor* blockDescriptor) {
     blockDescriptor->address -= getHeaderSize();
     blockDescriptor->allocatedSize += getHeaderSize();
     /* DELIBERATELY RUN ONTO NEXT CASE STATEMENT */
+    __attribute__ ((fallthrough));
 
   case UNCOMPRESSED_FILE_TYPE:
     if (munmap((void*)blockDescriptor->address,
