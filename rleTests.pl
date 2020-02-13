@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/env perl
 # This test makes a series of files with a single character repeated
 # in them and RLE compresses and decompresses the files. It tries
 # a "normal" character, the jlcompress RLE repeat character and the

@@ -1,4 +1,4 @@
-#! /bin/perl
+#!/usr/bin/env perl
 # This test makes a 100 MB file and tries the different compression
 # schemes on it.
 
