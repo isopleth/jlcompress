@@ -1,7 +1,12 @@
-This is a piece of old coursework that I did years ago.  The task was
-to write a file compression program in C that used two compression
-techniques.  I chose [run length encoding](https://en.wikipedia.org/wiki/Run-length_encoding) because it was easy to do,
-and [Huffman coding](https://en.wikipedia.org/wiki/Huffman_coding) because it was a bit more tricky.
+This is a slightly modified piece of coursework that I did a decade
+ago.  I've changed it to keep up with changes to the C programming
+language and compiler etc over the years.  The task was to write a
+file compression program in C that used two compression techniques.
+chose [run length
+encoding](https://en.wikipedia.org/wiki/Run-length_encoding) because
+it was easy to do, and [Huffman
+coding](https://en.wikipedia.org/wiki/Huffman_coding) because it was a
+bit more tricky.
 
 To build it on Linux, type `make`.
 It has various tests, run these using `make test`
